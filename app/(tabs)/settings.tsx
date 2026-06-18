@@ -10,7 +10,7 @@ const Settings = () => {
   return (
     <View>
       <Text style={styles.pageTitle}>Settings</Text>
-      <ScrollView>
+      <ScrollView style={{marginBlock: 10}}>
       
       <View style={styles.settingsCard}>
         <Text style={styles.settingsCardTitle}>Profile</Text>

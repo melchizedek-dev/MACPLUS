@@ -58,7 +58,7 @@ const CreateRoutine = () => {
   return (
     <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1, padding:10, margin:10 }}>
         <Text style={styles.pageTitle}>Add new routine</Text>
-      <ScrollView showsHorizontalScrollIndicator={false}>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View>
 
           <View style={styles.formGroup}>
